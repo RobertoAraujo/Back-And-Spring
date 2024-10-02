@@ -5,6 +5,5 @@ import javax.sql.DataSource;
 public interface DbConfig {
 
     DataSource dataSource();
-    void configure();
 
 }
